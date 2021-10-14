@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/marrom1"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="15dp"
+        android:background="@drawable/fundo"
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        >
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imagem1"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/nome1"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/imagem1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="NOME"/>
+
+
+        <TextView
+            android:id="@+id/descricao1"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/imagem1"
+            app:layout_constraintTop_toBottomOf="@+id/nome1"
+            android:text="Preco"/>
+
+        <TextView
+            android:id="@+id/preco1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="PRECO"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="15dp"
+        android:background="@drawable/fundo"
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imagem2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/nome2"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/imagem2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="NOME"/>
+
+
+        <TextView
+            android:id="@+id/descricao2"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/imagem2"
+            app:layout_constraintTop_toBottomOf="@+id/nome2"
+            android:text="Preco"/>
+
+        <TextView
+            android:id="@+id/preco2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="PRECO"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="15dp"
+        android:background="@drawable/fundo"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:padding="25dp">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imagem3"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nome3"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOME"
+            app:layout_constraintStart_toEndOf="@+id/imagem3"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/descricao3"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Preco"
+            app:layout_constraintStart_toEndOf="@+id/imagem3"
+            app:layout_constraintTop_toBottomOf="@+id/nome3" />
+
+        <TextView
+            android:id="@+id/preco3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRECO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
